@@ -1,1 +1,3 @@
-A collaboration with Dennis Irungu on printf project. 
+## printf project. 
+#  developed and mananged by Trevor Chelimo and Dennis Irungu 
+
