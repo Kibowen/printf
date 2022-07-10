@@ -1,1 +1,1 @@
-a collaboration with Dennis irungu on printf project. 
+A collaboration with Dennis Irungu on printf project. 
