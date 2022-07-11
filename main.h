@@ -1,5 +1,5 @@
-#ifndef HOL_H
-#define HOL_H
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdarg.h>
 /*Structs*/
 /*Typedefs*/
