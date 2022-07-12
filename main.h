@@ -1,36 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
+#define NULL ((void *)0)
 
-#include <stdarg.h>
-#include <stddef.h>
-#include <stdlib.h>
+int _putchar(char c);
+int _print_str(char *string);
+int _print_int(long int var);
+int _printf(const char *format, ...);
+int to_Binary(unsigned int n);
+int to_Octal(unsigned int n);
+int _power_recursion(int x, int y);
+int to_Hexa(unsigned int num);
 
-/**
- * struct structprint - structure containing
- * @q: the location and method to translate data to characters.
- * @u: print function for specific type.
- *
- * Return: int
- */
-typedef struct structprint
-{
-	char *q;
-	int (*u)(char *format, va_list);
-} structype;
-
-int _putchar(char ch);
-int _puts(char *string);
-int printc(char *format, va_list);
-int printstr(char *format, va_list);
-int (*driver(char *format))(char *format, va_list);
-int _printf(char *format, ...);
-int printint(char *format, va_list pa);
-int integer(int number);
-int contadordigit(int number);
-int _abs(int number);
-int printpercent(char *format, va_list pa);
-int printhex(char *format, va_list);
-int printHEX(char *format, va_list);
-int printocta(char *format, va_list);
-int print_unsign(char *format, va_list);
 #endif
