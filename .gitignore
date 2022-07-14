@@ -1,4 +1,5 @@
 main2.c
+main.c
 *.exe
 b_binary_test.c
 _putchar.c
